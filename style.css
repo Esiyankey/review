@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: rgb(143, 219, 219);
+}
+.underline{
+    height: 3px;
+    width: 50px;
+    border-radius: 20%;
+    background-color: rgb(23, 97, 90);
+    position: relative;
+    left: 30%;
+}
+.container{
+    height: 350px;
+    width: 300px;
+    background-color: white;
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+    position: relative;
+    top: 60px;
+    color:rgb(58, 58, 112) ;
+}
+.colon{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color:rgb(143, 219, 219) ;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 50px;
+    left: 70px;
+}
+
+img{
+    height: 150px;
+    width: 150px;
+    border-right:7px solid rgb(143, 219, 219);
+    border-top:7px solid rgb(143, 219, 219);
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+#name{
+   padding: 10px;
+}
+.btn{
+   
+    padding: 10px;
+}
+.prevbtn{
+    padding: 1px 5px;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid rgb(143, 219, 219);
+    color: rgb(143, 219, 219);
+    
+}
+.prevbtn:hover{
+    background-color: rgb(143, 219, 219);
+    color: white;
+}
+.next{
+    padding: 1px 5px;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid rgb(143, 219, 219);
+    color: rgb(143, 219, 219);
+}
+.next:hover{
+    background-color:rgb(143, 219, 219) ;
+    color: white;
+}
+#random-btn{
+    padding: 1px 5px;
+    background-color: white;
+    border-radius: 3px;
+    border: 1px solid rgb(143, 219, 219);
+    color: rgb(143, 219, 219);
+}
+#random-btn:hover{
+    background-color:rgb(143, 219, 219) ;
+    color: white;
+}
